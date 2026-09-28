@@ -1,6 +1,6 @@
 import { IsNumber, IsString } from 'class-validator';
 
-export class Office {
+export class CreateEmployee {
 
   @IsString()
   name: string;
@@ -9,5 +9,5 @@ export class Office {
   id: number;
 
   @IsString()
-  emai: string;
+  email: string;
 }
